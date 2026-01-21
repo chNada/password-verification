@@ -1,0 +1,64 @@
+html,bodya{
+    height: 100%;
+    margin: 0;
+ }   
+body{
+    height:100%;
+    text-align: center;
+    background-image: url(re1.jpg);
+    border-radius: 40px;
+    margin: 0;
+}
+.b{
+   height: 150px;
+   width: 150px;
+    background-image:url(lock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    border: solid;
+    translate:480px 120px ;
+ }   
+ .x{
+   width: 1100px;
+    height:590px;
+    background-color: rgba(175, 179, 179, 0.521);
+    background-position: center;
+    border-radius:70px;
+    border:solid;
+    translate:90px 0px;
+}
+p{
+    font-family: monospace;
+    translate: 0px 120px;text-decoration: underline;
+    font-style: oblique;
+    text-transform: uppercase;
+}
+h6{
+    translate: 20px 20px;
+   font:italic small-caps bold 50px fantasy  ;
+  }  
+  input{
+    border: solid;
+    border-radius: 8px;
+    translate:30px 120px;
+ }
+button {
+   color: rgb(249, 244, 244);
+   background-color:grey ;
+   translate: 35px 120px;
+   border-radius: 8px;
+   animation: forwards;
+   transition: 1s;
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    }
+input:invalid{
+border-color: red;
+}
+    input:valid{
+  border-color: rgb(6, 94, 31); 
+ }
