@@ -13,7 +13,18 @@
     <p>choose a password</p>
     <input type="password" placeholder="password" minlength="8">
     <button type="submit">submit</button>
-</div>
-</div>
+    
+<script>
+document.querySelector("button").onclick=function(){
+let pass=document.querySelector("input").value;
+
+if(pass.length>=8){
+alert("password accepted");
+}
+else{
+alert("password must be at least 8 characters");
+}
+}
+</script>
 </body>
 </html>
